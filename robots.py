@@ -35,12 +35,12 @@ while True:
         elif rx<0:
             rx=0
         if ry>vy-1:
-            ry=vy
+            ry=vy-1
         elif ry<0:
             ry=0
     besedilo+="Robot thinks "+ str(mx)+ " "+ str(my)+"\n"
-    besedilo+= "Actually at " +str(rx)+" "+ str(ry)+"\n"+"\n"
+    besedilo+= "Actually at " +str(rx)+" "+ str(ry)+"\n"
     napisi+=besedilo
-print(napisi.strip())
+print(napisi)
 
 
