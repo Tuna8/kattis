@@ -41,6 +41,6 @@ while True:
     besedilo+="Robot thinks "+ str(mx)+ " "+ str(my)+"\n"
     besedilo+= "Actually at " +str(rx)+" "+ str(ry)+"\n"+"\n"
     napisi+=besedilo
-print(napisi)
+print(napisi.strip())
 
 
