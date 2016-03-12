@@ -30,11 +30,11 @@ while True:
         elif smer=="r":
             mx+=kol
             rx+=kol
-        if rx>vx:
-            rx=vx
+        if rx>vx-1:
+            rx=vx-1
         elif rx<0:
             rx=0
-        if ry>vy:
+        if ry>vy-1:
             ry=vy
         elif ry<0:
             ry=0
